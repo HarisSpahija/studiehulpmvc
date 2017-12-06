@@ -15,6 +15,9 @@ namespace StudieHulp.Data
         {
         }
 
+        //Create DbSet Property
+        public DbSet<UserPost> Userpost { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
